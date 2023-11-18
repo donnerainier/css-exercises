@@ -1,0 +1,14 @@
+div .text {
+  font-size: 20px;
+  text-align: center;
+  background-color: yellow;
+  color: red;
+}
+
+/* The above code is a text-class combination in a descendant combinator 
+
+/* .container p is a class-text combination
+
+/* .container .text if using class-class descendant combinator */
+
+/* div p if using text-text descendant combinator */
