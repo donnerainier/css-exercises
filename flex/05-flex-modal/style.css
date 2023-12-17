@@ -20,6 +20,8 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
 }
 
 .icon {
@@ -33,6 +35,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* I could have added flex-shrink for a more concise way of preventing icon from getting smashed by text */
+}
+
+.icon-container {
+  padding-right: 16px;
 }
 
 .close-button {
@@ -66,4 +73,17 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 100%;
+  padding-bottom: 8px;
+}
+
+.text {
+  padding-bottom: 16px;
 }
